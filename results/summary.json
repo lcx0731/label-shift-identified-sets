@@ -1,0 +1,533 @@
+{
+  "data": "Deterministic synthetic channels; no private or external data.",
+  "true_prior": [
+    0.2,
+    0.3,
+    0.5
+  ],
+  "full_rank_channel": [
+    [
+      0.7,
+      0.2,
+      0.1
+    ],
+    [
+      0.2,
+      0.6,
+      0.2
+    ],
+    [
+      0.1,
+      0.2,
+      0.7
+    ]
+  ],
+  "rank_deficient_channel": [
+    [
+      0.8,
+      0.8,
+      0.1
+    ],
+    [
+      0.1,
+      0.1,
+      0.2
+    ],
+    [
+      0.1,
+      0.1,
+      0.7
+    ]
+  ],
+  "full_rank_population": {
+    "status": "feasible",
+    "n_bins": 3,
+    "n_classes": 3,
+    "channel_rank": 3,
+    "singular_values": [
+      1.0000000000000002,
+      0.6,
+      0.4
+    ],
+    "condition_number": 2.5000000000000004,
+    "minimum_band_relaxation": 0.0,
+    "relaxation_witness": [
+      0.19999999999999998,
+      0.30000000000000004,
+      0.5
+    ],
+    "relaxation_witness_violation": 5.551115123125783e-17,
+    "ranges": [
+      {
+        "name": "prior[0]",
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "lower": 0.2,
+        "upper": 0.19999999999999973,
+        "lower_witness": [
+          0.2,
+          0.30000000000000004,
+          0.4999999999999999
+        ],
+        "upper_witness": [
+          0.19999999999999973,
+          0.30000000000000004,
+          0.5000000000000001
+        ],
+        "max_constraint_violation": 1.942890293094024e-16
+      },
+      {
+        "name": "prior[1]",
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "lower": 0.29999999999999993,
+        "upper": 0.30000000000000004,
+        "lower_witness": [
+          0.2,
+          0.29999999999999993,
+          0.5000000000000001
+        ],
+        "upper_witness": [
+          0.2,
+          0.30000000000000004,
+          0.4999999999999999
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      },
+      {
+        "name": "prior[2]",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "lower": 0.5000000000000001,
+        "upper": 0.5000000000000001,
+        "lower_witness": [
+          0.19999999999999973,
+          0.30000000000000004,
+          0.5000000000000001
+        ],
+        "upper_witness": [
+          0.2,
+          0.29999999999999993,
+          0.5000000000000001
+        ],
+        "max_constraint_violation": 1.942890293094024e-16
+      }
+    ],
+    "witness": [
+      0.2,
+      0.29999999999999993,
+      0.5000000000000001
+    ]
+  },
+  "rank_deficient_population": {
+    "status": "feasible",
+    "n_bins": 3,
+    "n_classes": 3,
+    "channel_rank": 2,
+    "singular_values": [
+      1.1781971174460628,
+      0.6869145161093829,
+      3.536512510508986e-18
+    ],
+    "condition_number": null,
+    "minimum_band_relaxation": 0.0,
+    "relaxation_witness": [
+      0.0,
+      0.5,
+      0.4999999999999999
+    ],
+    "relaxation_witness_violation": 1.1102230246251565e-16,
+    "ranges": [
+      {
+        "name": "prior[0]",
+        "weights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "lower": 0.0,
+        "upper": 0.5000000000000001,
+        "lower_witness": [
+          0.0,
+          0.5,
+          0.4999999999999999
+        ],
+        "upper_witness": [
+          0.5000000000000001,
+          0.0,
+          0.5
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      },
+      {
+        "name": "prior[1]",
+        "weights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "lower": 0.0,
+        "upper": 0.5000000000000001,
+        "lower_witness": [
+          0.5,
+          0.0,
+          0.4999999999999999
+        ],
+        "upper_witness": [
+          0.0,
+          0.5000000000000001,
+          0.5
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      },
+      {
+        "name": "prior[2]",
+        "weights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "lower": 0.5,
+        "upper": 0.4999999999999999,
+        "lower_witness": [
+          0.5000000000000001,
+          0.0,
+          0.5
+        ],
+        "upper_witness": [
+          0.5,
+          0.0,
+          0.4999999999999999
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      },
+      {
+        "name": "contrast[0]",
+        "weights": [
+          1.0,
+          1.0,
+          0.0
+        ],
+        "lower": 0.5,
+        "upper": 0.5000000000000001,
+        "lower_witness": [
+          0.5,
+          0.0,
+          0.4999999999999999
+        ],
+        "upper_witness": [
+          0.5000000000000001,
+          0.0,
+          0.5
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      },
+      {
+        "name": "contrast[1]",
+        "weights": [
+          1.0,
+          -1.0,
+          0.0
+        ],
+        "lower": -0.5000000000000001,
+        "upper": 0.5000000000000001,
+        "lower_witness": [
+          0.0,
+          0.5000000000000001,
+          0.5
+        ],
+        "upper_witness": [
+          0.5000000000000001,
+          0.0,
+          0.5
+        ],
+        "max_constraint_violation": 1.1102230246251565e-16
+      }
+    ],
+    "witness": [
+      0.5,
+      0.0,
+      0.4999999999999999
+    ]
+  },
+  "rational_rank_deficient_vertices": [
+    [
+      "0",
+      "1/2",
+      "1/2"
+    ],
+    [
+      "1/2",
+      "0",
+      "1/2"
+    ]
+  ],
+  "width_experiment": [
+    {
+      "channel": "full_rank",
+      "n": 100,
+      "counts": [
+        25,
+        32,
+        43
+      ],
+      "prior_0_lower": 0.0,
+      "prior_0_upper": 0.4409867522335248,
+      "width": 0.4409867522335248
+    },
+    {
+      "channel": "rank_deficient",
+      "n": 100,
+      "counts": [
+        45,
+        15,
+        40
+      ],
+      "prior_0_lower": 0.0,
+      "prior_0_upper": 0.6772510116271635,
+      "width": 0.6772510116271635
+    },
+    {
+      "channel": "full_rank",
+      "n": 1000,
+      "counts": [
+        250,
+        320,
+        430
+      ],
+      "prior_0_lower": 0.13115883732065994,
+      "prior_0_upper": 0.27173367135564563,
+      "width": 0.1405748340349857
+    },
+    {
+      "channel": "rank_deficient",
+      "n": 1000,
+      "counts": [
+        450,
+        150,
+        400
+      ],
+      "prior_0_lower": 0.0,
+      "prior_0_upper": 0.554726290860079,
+      "width": 0.554726290860079
+    },
+    {
+      "channel": "full_rank",
+      "n": 10000,
+      "counts": [
+        2500,
+        3200,
+        4300
+      ],
+      "prior_0_lower": 0.17811174862936238,
+      "prior_0_upper": 0.22217396657835037,
+      "width": 0.044062217948987986
+    },
+    {
+      "channel": "rank_deficient",
+      "n": 10000,
+      "counts": [
+        4500,
+        1500,
+        4000
+      ],
+      "prior_0_lower": 0.0,
+      "prior_0_upper": 0.5171125298663439,
+      "width": 0.5171125298663439
+    },
+    {
+      "channel": "full_rank",
+      "n": 100000,
+      "counts": [
+        25000,
+        32000,
+        43000
+      ],
+      "prior_0_lower": 0.19306899280602585,
+      "prior_0_upper": 0.20695945350961342,
+      "width": 0.01389046070358757
+    },
+    {
+      "channel": "rank_deficient",
+      "n": 100000,
+      "counts": [
+        45000,
+        15000,
+        40000
+      ],
+      "prior_0_lower": 0.0,
+      "prior_0_upper": 0.5053903690591499,
+      "width": 0.5053903690591499
+    }
+  ],
+  "incompatible_population": {
+    "q": [
+      0.95,
+      0.03,
+      0.02
+    ],
+    "audit": {
+      "status": "infeasible",
+      "n_bins": 3,
+      "n_classes": 3,
+      "channel_rank": 3,
+      "singular_values": [
+        1.0000000000000002,
+        0.6,
+        0.4
+      ],
+      "condition_number": 2.5000000000000004,
+      "minimum_band_relaxation": 0.25,
+      "relaxation_witness": [
+        1.0,
+        -0.0,
+        0.0
+      ],
+      "relaxation_witness_violation": 0.0,
+      "ranges": []
+    }
+  },
+  "invisible_conditional_shift": {
+    "actual_prior": [
+      0.8,
+      0.1,
+      0.1
+    ],
+    "apparent_prior": [
+      0.1,
+      0.2,
+      0.7
+    ],
+    "changed_channel": [
+      [
+        0.18,
+        0.18,
+        0.18
+      ],
+      [
+        0.28,
+        0.28,
+        0.28
+      ],
+      [
+        0.5399999999999999,
+        0.5399999999999999,
+        0.5399999999999999
+      ]
+    ],
+    "observed_bin_probabilities": [
+      0.18,
+      0.28,
+      0.5399999999999999
+    ],
+    "actual_to_apparent_l1_error": 1.4,
+    "audit_using_old_channel": {
+      "status": "feasible",
+      "n_bins": 3,
+      "n_classes": 3,
+      "channel_rank": 3,
+      "singular_values": [
+        1.0000000000000002,
+        0.6,
+        0.4
+      ],
+      "condition_number": 2.5000000000000004,
+      "minimum_band_relaxation": 0.0,
+      "relaxation_witness": [
+        0.09999999999999999,
+        0.2000000000000001,
+        0.6999999999999998
+      ],
+      "relaxation_witness_violation": 0.0,
+      "ranges": [
+        {
+          "name": "prior[0]",
+          "weights": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "lower": 0.09999999999999998,
+          "upper": 0.09999999999999999,
+          "lower_witness": [
+            0.09999999999999998,
+            0.20000000000000007,
+            0.7000000000000001
+          ],
+          "upper_witness": [
+            0.09999999999999999,
+            0.20000000000000007,
+            0.7000000000000001
+          ],
+          "max_constraint_violation": 1.1102230246251565e-16
+        },
+        {
+          "name": "prior[1]",
+          "weights": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "lower": 0.20000000000000007,
+          "upper": 0.20000000000000007,
+          "lower_witness": [
+            0.09999999999999998,
+            0.20000000000000007,
+            0.6999999999999998
+          ],
+          "upper_witness": [
+            0.09999999999999998,
+            0.20000000000000007,
+            0.7000000000000001
+          ],
+          "max_constraint_violation": 1.1102230246251565e-16
+        },
+        {
+          "name": "prior[2]",
+          "weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "lower": 0.7000000000000001,
+          "upper": 0.6999999999999998,
+          "lower_witness": [
+            0.09999999999999999,
+            0.20000000000000007,
+            0.7000000000000001
+          ],
+          "upper_witness": [
+            0.09999999999999998,
+            0.20000000000000007,
+            0.6999999999999998
+          ],
+          "max_constraint_violation": 1.1102230246251565e-16
+        }
+      ],
+      "witness": [
+        0.09999999999999998,
+        0.20000000000000007,
+        0.6999999999999998
+      ]
+    }
+  },
+  "enumerated_coverage": {
+    "n": 20,
+    "alpha": 0.05,
+    "count_vectors": 231,
+    "probability_mass_sum": "1",
+    "joint_set_coverage": 0.9764228895540368,
+    "coordinate_rectangle_coverage": 0.9836461771566655,
+    "empty_set_probability": 1.3992777693342845e-06,
+    "joint_set_coverage_rational": "74495154537508909675082136888837/76293945312500000000000000000000"
+  }
+}
