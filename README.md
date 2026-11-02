@@ -25,7 +25,9 @@ python -m shift_sets.demo --output results
 shift-bounds results/example.json
 ```
 
-The pinned dependency file reproduces the development environment. Compatible
+The pinned dependency file reproduces the Python 3.13 development environment,
+with compatible NumPy, SciPy and ContourPy pins selected by environment markers
+on Python 3.11. Compatible
 dependency ranges are also declared in `pyproject.toml`; to use those instead,
 run `python -m pip install '.[test]'`. The demo uses Matplotlib, included in the
 test extra. The core package only needs NumPy and SciPy. No network access is
